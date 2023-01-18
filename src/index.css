@@ -1,1 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&family=Poppins:ital,wght@1,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
