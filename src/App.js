@@ -2,6 +2,7 @@ import Navbar from "./scenes/Navbar";
 import DotGroup from "./scenes/DotGroup";
 import useMediaQuery from "./hooks/useMediaQuery";
 import { useEffect, useState } from "react";
+import Landing from "./scenes/Landing";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
