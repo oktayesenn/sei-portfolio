@@ -20,14 +20,14 @@ const Landing = ({ setSelectedPage }) => {
             <img
               alt="profile"
               className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-              src="assets/profile-image.png"
+              src= "src\assets\nyc.avif"
             />
           </div>
         ) : (
           <img
             alt="profile"
             className="z-10 w-full max-w-[400px] md:max-w-[600px]"
-            src="assets/profile-image.png"
+            src="src\assets\nyc.avif"
           />
         )}
       </div>
@@ -56,7 +56,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Hi My name is Oktay Esen. I am a Full Stack Developer base NYC.
+            Hi My name is Oktay Esen. NYC based Full Stack Developer.
           </p>
         </motion.div>
 
