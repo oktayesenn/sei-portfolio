@@ -20,7 +20,7 @@ const MySkills = () => {
           }}
         >
           <p className="font-playfair font-semibold text-4xl mb-5">
-            MY <span className="text-red">SKILLS</span>
+            MY <span className="text-white">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
@@ -36,7 +36,7 @@ const MySkills = () => {
               before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
             >
               <img
-                alt="skills"
+                alt="skill"
                 className="z-10"
                 src="assets/skills-image.png"
               />

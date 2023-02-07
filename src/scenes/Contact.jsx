@@ -1,6 +1,7 @@
 import LineGradient from "../components/LineGradient";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
+import rick from "../assets/rick.jpg";
 
 const Contact = () => {
   const {
@@ -42,7 +43,7 @@ const Contact = () => {
       </motion.div>
 
       {/* FORM & IMAGE */}
-      <div className="md:flex md:justify-between gap-16 mt-5">
+      <div className="md:flex md:justify-between gap-16 mt-5 ">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -52,9 +53,9 @@ const Contact = () => {
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
           }}
-          className="basis-1/2 flex justify-center"
+          className="basis-1/2 flex justify-center h-90  "
         >
-          <img src="../assets/contact-image.jpeg" alt="contact" />
+          <img src={rick} alt="contact" />
         </motion.div>
 
         <motion.div
