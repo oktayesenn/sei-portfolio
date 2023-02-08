@@ -10,7 +10,7 @@ const Footer = () => {
             Oktay ESEN
           </p>
           <p className="font-playfair text-md text-yellow">
-            ©2023 ESEN. All Rights Reserved.
+            ©2023 ESEN. 
           </p>
         </div>
       </div>
