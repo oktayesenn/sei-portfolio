@@ -14,9 +14,6 @@ const Landing = ({ setSelectedPage }) => {
       id="home"
       className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10"
     >
-      {/* IMAGE SECTION */}
-      
-  
       <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
         {isAboveLarge ? (
           <div
@@ -37,10 +34,6 @@ const Landing = ({ setSelectedPage }) => {
           />
         )}
       </div>
- 
-      
-      {/* MAIN TEXT */}
-      
       <div className="z-30 basis-2/5 mt-12 md:mt-32">
         {/* HEADINGS */}
         <motion.div
