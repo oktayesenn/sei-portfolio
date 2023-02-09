@@ -22,6 +22,10 @@ const Contact = () => {
         <div>
           <p className="font-playfair font-semibold text-4xl">
             <span className="text-yellow">CONTACT ME</span> TO GET STARTED
+          
+          </p>
+          <p>
+            I am currently looking for new opportunities. My inbox is always open. There is the way you can chose to contact me.
           </p>
           <div className="flex md:justify-center my-5">
             <LineGradient width="w-1/2" />
