@@ -1,6 +1,7 @@
 import linkedin from "../assets/linkedin.png";
 import twitter2 from "../assets/twitter2.png";
 import github from "../assets/github.png";
+import gmail from "../assets/gmail.png";
 
 
 
@@ -32,7 +33,14 @@ const SocialMediaIcons = () => {
         >
           <img alt="Github-link" src={github} />
         </a>
-
+        <a 
+          className="hover:opacity-50 transition duration-500"
+          href="https://www.gmail.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img alt="Gmail-link" src={gmail} />
+        </a>
       </div>
     );
   };
