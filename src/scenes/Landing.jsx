@@ -3,7 +3,6 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import nyc from "../assets/nyc.avif";
-import Slider from "./Slider";
 
 
 
