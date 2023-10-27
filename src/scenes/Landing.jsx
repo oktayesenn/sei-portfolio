@@ -87,7 +87,7 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <SocialMediaIcons />
+          {/* <SocialMediaIcons /> */}
         </motion.div>
       </div>
     </section>
