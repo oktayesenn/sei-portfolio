@@ -48,7 +48,7 @@ function App() {
           <Landing setSelectedPage={setSelectedPage} />
         </motion.div>
       </div>
-      {/* <LineGradient />
+      <LineGradient />
       <div className="w-5/6 mx-auto md:h-full">
         <motion.div
           margin="0 0 -200px 0"
@@ -58,7 +58,7 @@ function App() {
           <Projects />
         </motion.div> 
       </div>
-      <LineGradient /> */}
+      <LineGradient />
 
       <LineGradient />
       <div className="w-5/6 mx-auto md:h-full">

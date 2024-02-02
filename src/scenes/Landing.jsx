@@ -55,7 +55,7 @@ const Landing = ({ setSelectedPage }) => {
             </span>
           </p>
 
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">
+          <p className="mt-10 mb-7 text-sm text-center md:text-start font-serif">
             Hi My name is Oktay and I'm from Turkey. NYC based Full Stack Developer.
             Living in NYC since 2016.
           </p>
