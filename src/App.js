@@ -8,6 +8,7 @@ import Footer from "./scenes/Footer";
 import useMediaQuery from "./hooks/useMediaQuery";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import React from "react-dom";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");

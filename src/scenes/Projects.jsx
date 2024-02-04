@@ -1,5 +1,6 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
+import React from "react-dom";
 
 const container = {
   hidden: {},
